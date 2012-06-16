@@ -7,8 +7,8 @@
         <script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">            
         </script>
         <script src="https://raw.github.com/ireapps/census/master/tools/js/ire_census.js"></script>
-        <script type="text/javascript" src="profile.js">
-        </script>
+        <script type="text/javascript" src="highcharts/js/highcharts.js"></script>
+        <script type="text/javascript" src="profile.js"></script>
     </head>
     <body>
         <form id="geoid-form"><label for="geoid">GeoID</label><input type="text" name="geoid" value="" placeholder="change the geography" id="geoid"><br></form>
@@ -18,6 +18,7 @@
             Male Population: <div id="male-population"></div><div id="male-pct"></div>
             Female Population: <div id="female-population"></div><div id="female-pct"></div>
             Total: <div id="total-population"></div>
+            <div id="gender-age-chart"></div>
         </div>
     </body>
 </html>
